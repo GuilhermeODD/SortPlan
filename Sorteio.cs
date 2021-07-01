@@ -35,6 +35,9 @@ namespace SortPlan
             int sort;
             int[] VV = new int[100];
             string res = "";
+            if (textBox1.Text == "")
+            { MessageBox.Show("Erro adicione a quantidade a ser sorteada", "Erro"); }
+            else { 
             for (int s = 0; s<=qnt -1; s++)
             {
 
@@ -52,10 +55,9 @@ namespace SortPlan
                 textBox3.Text = res;
                 VV[s] = sort;
             }
-            
-            
-            
-           
+            }
+
+
         }
 
         private void Sorteio_Load(object sender, EventArgs e)

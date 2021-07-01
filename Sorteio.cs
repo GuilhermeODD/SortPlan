@@ -28,16 +28,19 @@ namespace SortPlan
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Random Rdm = new Random();
+            if (textBox1.Text == "")
+            { MessageBox.Show("Erro adicione a quantidade a ser sorteada", "Erro"); }
+            else
+            {
+                Random Rdm = new Random();
             int min = Convert.ToInt32(textBox1.Text);
             int max = Convert.ToInt32(textBox2.Text);
             int qnt = Convert.ToInt32(textBox4.Text);
             int sort;
             int[] VV = new int[100];
             string res = "";
-            if (textBox1.Text == "")
-            { MessageBox.Show("Erro adicione a quantidade a ser sorteada", "Erro"); }
-            else { 
+            
+             
             for (int s = 0; s<=qnt -1; s++)
             {
 

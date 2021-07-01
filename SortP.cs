@@ -99,6 +99,25 @@ namespace SortPlan
                 s = s + 1;
             }
         }
+
+        private void Nameb_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (char.IsNumber(e.KeyChar) || char.IsPunctuation(e.KeyChar) || char.IsWhiteSpace(e.KeyChar))
+                e.Handled = true;
+        }
+
+        private void textBox4_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (char.IsLetter(e.KeyChar) || char.IsPunctuation(e.KeyChar) || char.IsWhiteSpace(e.KeyChar))
+                e.Handled = true;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Sorteio s = new Sorteio();
+            s.Show();
+            this.Hide();
+        }
     }
 }
 

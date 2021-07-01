@@ -45,10 +45,10 @@ namespace SortPlan
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(12, 103);
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(475, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(223, 37);
+            this.label1.Size = new System.Drawing.Size(253, 43);
             this.label1.TabIndex = 0;
             this.label1.Text = "Sorteio Numerico";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -56,10 +56,10 @@ namespace SortPlan
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button1.Font = new System.Drawing.Font("Sylfaen", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(25, 281);
+            this.button1.Font = new System.Drawing.Font("Sylfaen", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.Location = new System.Drawing.Point(12, 306);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(249, 80);
+            this.button1.Size = new System.Drawing.Size(309, 56);
             this.button1.TabIndex = 1;
             this.button1.Text = "Sortear";
             this.button1.UseVisualStyleBackColor = false;
@@ -67,35 +67,37 @@ namespace SortPlan
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(280, 119);
+            this.textBox1.Location = new System.Drawing.Point(527, 170);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(126, 23);
+            this.textBox1.Size = new System.Drawing.Size(182, 23);
             this.textBox1.TabIndex = 2;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(585, 117);
+            this.textBox2.Location = new System.Drawing.Point(527, 250);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(115, 23);
+            this.textBox2.Size = new System.Drawing.Size(182, 23);
             this.textBox2.TabIndex = 3;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(626, 329);
+            this.textBox3.Location = new System.Drawing.Point(604, 339);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(84, 23);
+            this.textBox3.ReadOnly = true;
+            this.textBox3.Size = new System.Drawing.Size(105, 23);
             this.textBox3.TabIndex = 4;
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label2.Font = new System.Drawing.Font("Baskerville Old Face", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(12, 9);
+            this.label2.Location = new System.Drawing.Point(43, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(250, 73);
             this.label2.TabIndex = 5;
@@ -104,9 +106,9 @@ namespace SortPlan
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(25, 183);
+            this.textBox4.Location = new System.Drawing.Point(645, 106);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(190, 23);
+            this.textBox4.Size = new System.Drawing.Size(64, 23);
             this.textBox4.TabIndex = 6;
             this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             this.textBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox4_KeyPress);
@@ -114,10 +116,10 @@ namespace SortPlan
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(25, 159);
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(505, 73);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(158, 21);
+            this.label3.Size = new System.Drawing.Size(214, 30);
             this.label3.TabIndex = 7;
             this.label3.Text = "Quantidade de vezes ";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -126,7 +128,7 @@ namespace SortPlan
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(462, 110);
+            this.label4.Location = new System.Drawing.Point(581, 196);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(83, 40);
             this.label4.TabIndex = 8;
@@ -137,7 +139,7 @@ namespace SortPlan
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(616, 271);
+            this.label5.Location = new System.Drawing.Point(615, 306);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(104, 30);
             this.label5.TabIndex = 9;
@@ -146,10 +148,10 @@ namespace SortPlan
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button2.Font = new System.Drawing.Font("Sylfaen", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(507, 12);
+            this.button2.Font = new System.Drawing.Font("Sylfaen", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.Location = new System.Drawing.Point(12, 196);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(203, 43);
+            this.button2.Size = new System.Drawing.Size(309, 51);
             this.button2.TabIndex = 10;
             this.button2.Text = "Sortear Pessoas";
             this.button2.UseVisualStyleBackColor = false;
